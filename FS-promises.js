@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises');
 
-// Proceso asincrono con callback con romesas
+// Proceso asincrono con promesas
 console.log("********** ASYNC ******************");
 fs.readFile('file.txt', 'utf-8')
 .then((text) => {
