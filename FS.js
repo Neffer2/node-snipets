@@ -34,3 +34,12 @@ fs.readFile('file2.txt', 'utf-8', (err, text) => {
     if (err) throw err;
     console.log(text);  
 });
+
+
+/* 
+* Existen 4 formas de manejar funciones en JavaScript:
+* 1.- Proceso sincrono.
+* 2.- Proceso asincrono con callbacks y promesas.
+* 3.- Proceso asincrono secuencial (Async await).
+* 4.- Proceso asincrono paralelo (Async await).
+*/
