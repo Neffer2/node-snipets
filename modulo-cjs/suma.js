@@ -14,11 +14,6 @@ module.exports = { // This is the same as the previous line.
         return a + b;
     }
 };
-module.exports = { // This is the same as the previous line.
-    sum: function(a , b) {
-        return a + b;
-    }
-}
 module.exports = {
     sum: (a, b) => a + b
 }
